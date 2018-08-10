@@ -3,4 +3,6 @@
 *.iml
 
 gradlew
+gradlew.bat
 gradle.bat
+gradle
