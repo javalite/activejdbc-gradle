@@ -9,7 +9,8 @@ repositories {
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 }
 
-activejdbc.toolVersion = '2.3-SNAPSHOT'
+// For using the latest snapshot version of ActiveJDBC instrumentation
+//activejdbc.toolVersion = '2.3-SNAPSHOT'
 
 dependencies {
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
