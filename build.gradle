@@ -1,7 +1,7 @@
 
 plugins {
     id "java"
-    id "de.schablinski.activejdbc-gradle-plugin" version "1.1"
+    id "de.schablinski.activejdbc-gradle-plugin" version "1.5"
 }
 
 repositories {
@@ -9,8 +9,6 @@ repositories {
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 }
 
-// For using the latest snapshot version of ActiveJDBC instrumentation
-activejdbc.toolVersion = '2.3.1-j8'
 
 dependencies {
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
