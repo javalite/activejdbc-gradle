@@ -1,12 +1,1 @@
-# Gradle-based example using ActiveJDBC.
-Usage:
-
-*  Execute `create.sql` against your DB - this will create a table. 
-*  Execute the following command: 
-
-```
-gradle clean build run
-```
-* Examine the output
-
-
+# # This reepository is deprecated. All examples have moved to [JavaLite Examples](https://github.com/javalite/javalite-examples) repo.
